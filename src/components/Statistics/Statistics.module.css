@@ -1,0 +1,58 @@
+.statistics {
+  max-width: 300px;
+  margin: 0 auto 40px auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.statisticsTitle {
+  padding: 10px 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-color: white;
+  margin: 0 auto;
+  color: rgb(47, 47, 47);;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.statisticsList {
+  display: flex;
+  font-size: 18px;
+}
+
+.statisticsItem {
+  padding: 10px 0;
+  text-align: center;
+  flex-basis: calc(100%/5);
+}
+
+.statisticsItem:nth-child(1) {
+  background-color: rgb(233, 240, 255);
+  
+}
+
+.statisticsItem:nth-child(2) {
+  background-color: rgb(226, 250, 235);
+}
+
+.statisticsItem:nth-child(3) {
+  background-color: rgb(255, 225, 221);
+}
+
+.statisticsItem:nth-child(4) {
+  background-color: rgb(251, 253, 230);
+}
+
+.statisticsItem:nth-child(5) {
+  background-color: rgb(247, 220, 252);
+  
+}
+
+.statisticsItemLabel {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}

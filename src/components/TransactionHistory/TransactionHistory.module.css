@@ -1,0 +1,35 @@
+.transactionsTable {
+  border: 1px solid rgb(221, 220, 220);
+  border-radius: 5px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.transactionsHeader {
+  padding: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid white;
+  background-color: rgb(128, 213, 253);
+}
+
+.transactions {
+  padding: 5px;
+  font-size: 12px;
+  color: rgb(110, 110, 110);
+  text-align: center;
+  border: 1px solid rgb(240, 240, 240);
+  
+}
+
+.transactionsLine:nth-child(even) {
+  background-color: rgb(230, 247, 255);
+}
+
+.transactionsLine:nth-child(odd) {
+  background-color: white;
+}

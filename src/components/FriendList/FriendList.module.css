@@ -1,0 +1,8 @@
+.friendsList {
+  max-width: 300px;
+  margin: 40px auto;
+}
+
+.friendsListItem:not(:last-child) {
+  margin-bottom: 10px;
+}
